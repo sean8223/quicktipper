@@ -1,0 +1,59 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    font-family: "Playball", cursive;
+    font-size: 2em !important;
+}
+
+h2 {
+    margin: 0 !important;
+    padding: 0;
+    width: 100%;
+    font-size: 0.75em;
+}
+
+h4 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 0.75em !important; 
+}
+
+.charge {
+    display: inline-block;
+    width: 15%;
+    text-align: right;
+    margin-right: 5%;
+}
+
+li span.charge {
+    font-weight: bold;
+}
+
+.ten, .fifteen, .twenty, .twentyfive {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+}
+
+ul.ui-listview li:nth-child(even) {
+    background-color: #ebebeb;
+}
+
+.ui-page .ui-header, .ui-page .ui-footer {
+    background-color: #003399;
+}
+
+.ui-header .ui-title {
+    overflow: visible !important;
+    white-space: normal !important;
+    margin: 0;
+}
+
+div.ui-header h1.ui-title {
+    color: #ffffff;
+}
+

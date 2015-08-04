@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html manifest="qt.manifest">
+  <head>
+    <title>Quick Tipper</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Playball">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.4.min.css">
+    <link rel="stylesheet" type="text/css" href="css/qt.css">
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.4.4.min.js"></script>
+    <script type="text/javascript" src="js/qt.js"></script>
+  </head>
+  <body>
+    <div data-role="page" id="home">
+      <div data-role="header" data-position="fixed" data-tap-toggle="false">
+	<h1>Quick Tipper</h1>
+	<div class="ui-bar ui-bar-a" data-position="fixed" data-tap-toggle="false">
+	  <h2><span class="charge">Charge</span><span class="ten">10%</span><span class="fifteen">15%</span><span class="twenty">20%</span><span class="twentyfive">25%</span></h2>
+	</div>
+      </div>
+      <div role="main" class="ui-content">
+	<ul data-role="listview" id="tips"></ul>
+      </div>
+      <div data-role="footer" data-position="fixed" data-tap-toggle="false">
+	<h4>Remember, a quick tipper need not be a big tipper!</h4>
+      </div>
+    </div>
+  </body>
+  <script>
+    $(function() { qt.setup(); });
+  </script>
+</html>
